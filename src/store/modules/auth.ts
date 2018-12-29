@@ -43,7 +43,7 @@ const actions = {
     return new Promise((resolve, reject) => {
       DeezerApi.getMyPlaylists(data,function(data: any){
           resolve(data)
-        
+          console.log(9)
       })
     })
   },
